@@ -1,0 +1,128 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #dbdbdb;
+    padding: 2rem 1rem;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre el encabezado */
+header:hover {
+    background-color: #c4c4c4;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre el contenedor */
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto al pasar el cursor sobre los botones */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Estilo para los campos de entrada del formulario */
+form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+/* Efecto al enfocar un campo de entrada */
+form input:focus {
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+    border-color: #007bff;
+}
+
+/* Estilo para las etiquetas de los formularios */
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Estilo para las secciones */
+section {
+    margin: 20px auto;
+    max-width: 500px;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el cursor sobre las secciones */
+section:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilo para las secciones dentro del pie de página */
+footer section {
+    margin-top: 10px;
+}
+
+/* Estilo para el texto del pie de página */
+footer p {
+    margin: 0;
+}
+
+/* Estilo para los enlaces en el pie de página */
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* Efecto al pasar el cursor sobre los enlaces del pie de página */
+footer a:hover {
+    color: cornflowerblue;
+}
+
+
